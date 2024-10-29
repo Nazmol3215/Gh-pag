@@ -1,11 +1,9 @@
-import './App.css';
+import React from 'react'
 
-function App() {
+export default function about() {
   return (
-    <div className="App">
-     
-
-<h1>this is a about pages</h1>
+    <div>
+      
 
 <h1>this is about pages</h1>
 Lorem ipsum dolor sit amet consectetur adipisicing 
@@ -17,8 +15,7 @@ dolores natus excepturi laborum dolor facilis eveniet
   laboriosam magni!
 
 
-    </div>
-  );
-}
 
-export default App;
+    </div>
+  )
+}
